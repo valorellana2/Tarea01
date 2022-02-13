@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("img/fondo.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+.pagina-completa{
+    min-width: 610px;
+}
+.header{
+    width: 100%;
+    height: 140px;
+}
+#nombre{
+    width: 100%;
+    height: 90px;
+    max-height: 90px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    max-height: 90px;
+}
+.botonera{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(237, 30, 121);
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s linear;
+    padding: 0 10px;
+    color: white;
+    font-weight: bold;
+    margin: 0 7px;
+}
+.btn:hover{
+    background-color: rgb(223, 31, 114); 
+}
+
+.cuerpodepagina{
+    width: 100vw;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    align-self: center;
+}
+.github{
+    padding: 25px;
+    border-radius: 2px;
+    background-color: bisque;
+    color: black;
+    font-weight: bold;
+    margin-top: 25px;
+    transition: all 0.5s none;
+}
+.github:hover{
+    background-color: rgb(250, 214, 169);
+}
